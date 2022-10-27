@@ -1,0 +1,84 @@
+import styled from 'styled-components';
+import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
+
+
+export const HeroContainerAdmin = styled.div`
+background:#8cc63f;
+margin-bottom:150px;
+display:flex;
+justify-content: center;
+align-item:center;
+padding-bottom:100px;
+height: auto;
+position:relative;
+z-index:1;
+margin: 0px 30px 150px 30px;
+:before {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradiant(
+        180deg,
+        rgba(0,0,0,0.2) 0%,
+        transparent 100%);
+        z-index:2;
+}
+@media screen and (max-width: 768px){
+  margin-top:50px;
+}
+`;
+
+export const HeroBg = styled.div`
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
+width:auto;
+height:auto;
+overflow:hidden;
+`;
+
+export const VideoBg = styled.video`
+width:100%;
+height:100%;
+-o-object-fit:cover;
+object-fit:cover;
+background:#232a34;
+`;
+
+export const HeroContent = styled.div`
+z-index:3;
+max-width: 1200px;
+position:absolute: 
+padding: 8px 50px;
+margin-top:300px;
+display:flex;
+flex-direction: column;
+align-items: center;
+`;
+
+export const HeroH1 = styled.h1`
+color:#fff;
+font-size: 48px;
+text-align: center;
+@media screen and (max-width: 768px){
+    font-size: 40px;
+}
+@media screen and (max-width: 480px){
+    font-size: 32px;
+}
+`;
+
+
+export const HeroBtnWrapper = styled.div`
+width: 200%;
+margin-top: 100px;
+display:flex;
+flex-direction: column;
+align-items: center;
+`;
+

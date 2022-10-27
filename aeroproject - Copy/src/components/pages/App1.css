@@ -1,0 +1,103 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+
+  
+  #root1 {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  .App1 {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    max-width: 615px;
+    padding-bottom: 66px;
+    padding-top: 46px;
+    text-align: center;
+    width: 90%;
+  }
+  .App1 > .logo {
+    max-width: 90%;
+  }
+  .App1 > .form {
+    margin-bottom: 98px;
+    margin-top: 41px;
+    
+  }
+  
+  .input-group1 {
+    margin-bottom: 26px;
+    margin-left: 17.5%;
+  }
+  .input-group1:nth-last-child(-n + 2) {
+    margin-bottom: 50px;
+  }
+  .input-group1 > label,
+  .input-group1 > input {
+    font-family: 'Roboto', sans-serif;
+    max-width: 420px;
+    text-align: left;
+    width: 80%;
+  }
+  .input-group1 > label {
+    color: #676767;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .input-group1 > input {
+    background: #f2f2f5;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    color: #676767;
+    font-size: 16px;
+    height: 40px;
+    outline: 0;
+    padding: 0 15px;
+    transition: all 0.3s;
+  }
+  .input-group1 > input:focus {
+    background: #fff;
+    border-color: #c4c4c4;
+  }
+  .input-group1 > input::placeholder {
+    color: #c4c4c4;
+    font-size: 16px;
+  }
+  
+  button {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    max-width: 420px;
+    outline: 0;
+    padding: 10px 0;
+    transition: background 0.3s;
+    width: 80%;
+  }
+  button.primary1 {
+    background: #f58733;
+  }
+  button.primary1:hover {
+    background: #ea6c0b;
+  }
+  button.secondary1 {
+    background: #c1d7aa;
+  }
+  button.secondary1:hover {
+    background: #a8c787;
+  } 
+  
